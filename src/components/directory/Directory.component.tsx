@@ -1,8 +1,8 @@
 import React from 'react'
 import './directory.styles.scss'
-import CategoryItem from '../category-item/CategoryItem.tsx'
+import CategoryItem from '../category-item/CategoryItem'
 
-const HomePage = () => {
+const Directory = () => {
   const categories = [
     {
       "id": 1,
@@ -40,4 +40,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default Directory

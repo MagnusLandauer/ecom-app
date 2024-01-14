@@ -1,5 +1,5 @@
 import React from 'react'
-import { Category } from '../../entities'
+import { Category } from '../../types/entities'
 import './category-item.styles.scss'
 
 interface CategoryItemProps {
